@@ -14,8 +14,8 @@ function swapInPlace(items, a, b) {
   const aPos = indexOf(items, a);
   const bPos = indexOf(items, b);
 
-  items.replace(aPos, 1, [ b ]);
-  items.replace(bPos, 1, [ a ]);
+  items.replace(aPos, 1, new Array(b.model));
+  items.replace(bPos, 1, new Array(a.model));
 }
 
 function shiftInPlace(items, a, b) {
