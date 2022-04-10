@@ -1,6 +1,6 @@
 {
   "name": "@testomatio/ember-drag-drop",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "Addon for Ember CLI to do drag and drop",
   "scripts": {
     "build": "ember build",
